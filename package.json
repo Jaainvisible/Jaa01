@@ -5,7 +5,7 @@
 "main": "./lib/main.js",
 "type": "commonjs",
 "scripts": {
-"start": "node . --use-pairing-code"
+"start": "npm i -g pm2 && pm2 start --use-pairing-code && pm2 save && pm2 logs"
 },
 "keywords": [
 "termux",
